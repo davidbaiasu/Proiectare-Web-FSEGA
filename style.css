@@ -1,3 +1,57 @@
-.class-subtitlu{
-    color: blue;
+body{
+    background-color: #bcdbe8;
+}
+#id-titlu-principal {
+    font-size: 70px;
+    text-align: center;
+}
+
+/* Bara de navigare */
+
+#id-nav-ul {
+    list-style-type: none;
+    background-color: #386b70;
+    margin: 0;
+    padding: 0;
+}
+.class-link-nav {
+    color: #f5efef;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.class-link-nav:hover {
+    background-color: hsl(0, 0%, 10%);
+    color: #ffffff;
+}
+
+.class-nav-item {
+    display: inline-block;
+}
+
+/* Sectiune de introducere */
+
+/* Sectiune de orar*/
+#id-tabel-orar {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+#id-tabel-orar th, #id-tabel-orar td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+#id-tabel-orar th {
+    background-color: #386b70;
+    color: #ffffff;
+}
+
+/* Sectiune de contact */
+
+/* Sectiune de imagini */
+#id-img-imagine {
+    width: 100%;
 }

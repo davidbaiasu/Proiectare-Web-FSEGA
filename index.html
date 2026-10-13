@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Pagina WEB: JSON JEDI</title>
         <link rel="icon" type="image/x-icon" 
-        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAdcDrABZt2QAAMLMAARNFADjh/wAfpuAACFGCAABxswAISv8AO5zUAF6h/wCw4v8AI5fbAAAAAAAAAAAAAABERHAAAAAAAHdxp3AAAAAHqhzBpwAAAHoRHdzBAAAAqhyBHcyAAAehHRzMwYAABxHMzMzLJwAHHMzMzBsncAAY3czNuyJwAHK70R27twAAcrsoiCsicAhrubcAcihwBVtLtwAHdwAIe7snAAAAAACJmYAAAAAAAAMzAAAAAADwfwAA8B8AAOAPAADADwAAwAcAAIAHAACAAwAAgAEAAMABAADAAwAAwAEAAIDBAACA4wAAgP8AAMH/AADj/wAA">
+        href="gaina.ico">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -13,15 +13,17 @@
 
         <!-- Header principal -->
         <header id="id-header">
-            <h1>JSON JEDI</h1>
+            <h1 id="id-titlu-principal">JSON JEDI</h1>
         </header>
 
         <!-- Bara de navigare -->
         <nav id="id-nav">
-            <a href="index.html#id-section-introducere">Introducere</a>
-            <a href="index.html#id-section-membri">Membri</a>
-            <a href="index.html#id-section-orar">Orar</a>
-            <a href="index.html#id-section-contact">Contact</a>
+            <ul id="id-nav-ul">
+                <li class="class-nav-item"><a class="class-link-nav" href="index.html#id-section-introducere">Introducere</a></li>
+                <li class="class-nav-item"><a class="class-link-nav" href="index.html#id-section-membri">Membri</a></li>
+                <li class="class-nav-item"><a class="class-link-nav" href="index.html#id-section-orar">Orar</a></li>
+                <li class="class-nav-item"><a class="class-link-nav" href="index.html#id-section-contact">Contact</a></li>
+             </ul>
         </nav>
 
         <!-- Sectiune de introducere -->
@@ -145,9 +147,9 @@
             <!-- Formular de contact -->
             <form id="id-form-contact">
                 <label for="id-nume">Nume:</label>
-                <input type="text" id="id-nume" name="nume" placeholder="ex: " required>
+                <input type="text" id="id-nume" name="nume" placeholder="ex: Marcel Bostan" required>
                 <label for="id-email">Email:</label>
-                <input type="email" id="id-email" name="email" placeholder="ex: david.baiasu@stud.ubbcluj.ro" required>
+                <input type="email" id="id-email" name="email" placeholder="ex: marcel.bostan@email.ro" required>
                 <label for="id-mesaj">Mesaj:</label>
                 <input type="text" id="id-mesaj" name="mesaj" required>
                 <button type="submit">Trimite</button>
@@ -157,7 +159,7 @@
 
         <!-- Imagine -->
         <figure id="id-figure-imagine">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkDAmtlgo0hOFX52qNgMuX1QtuniBU9zMvhvk-GJwYdlLTyDGjFS0pwT-g&s=10" alt="Imagine munti">
+            <img id="id-img-imagine" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkDAmtlgo0hOFX52qNgMuX1QtuniBU9zMvhvk-GJwYdlLTyDGjFS0pwT-g&s=10" alt="Imagine munti">
         </figure>
 
         <!-- Antet-ul paginii -->
